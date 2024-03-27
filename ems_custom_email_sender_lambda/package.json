@@ -1,0 +1,19 @@
+{
+  "name": "ems_custom_email_sender_lambda",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "tsc",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@aws-crypto/client-node": "^4.0.0",
+    "base64-js": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.136",
+    "typescript": "^5"
+  }
+}

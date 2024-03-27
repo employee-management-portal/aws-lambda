@@ -1,0 +1,26 @@
+{
+  version: '1',
+  triggerSource: 'TokenGeneration_Authentication',
+  region: 'ap-south-1',
+  userPoolId: 'ap-south-1_6woaPSlL4',
+  userName: 'e9e0bccf-418f-4156-bd1a-21f21bc56421',
+  callerContext: {
+    awsSdkVersion: 'aws-sdk-java-2.25.11',
+    clientId: '3t9r5on8fd1tbads3kiaerogl7'
+  },
+  request: {
+    userAttributes: {
+      'cognito:token_nbf': '1711039700350',
+      sub: 'e9e0bccf-418f-4156-bd1a-21f21bc56421',
+      'cognito:user_status': 'CONFIRMED',
+      email_verified: 'true',
+      email: 'rudreshgpt2@gmail.com'
+    },
+    groupConfiguration: {
+      groupsToOverride: [],
+      iamRolesToOverride: [],
+      preferredRole: null
+    }
+  },
+  response: { claimsOverrideDetails: null }
+}
